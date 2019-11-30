@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="info">
+    <br><br>
+	Image Uploader: <input type="text" name="Artist" id="Artist" placeholder="Artist"><br><br>
+
+	Rate          :<input type="text" name="Location" id="location" style="margin-left: 18px;"><br><br>
+
+	Image name    :<input type="text" name="Location" id="location" style="margin-left: 18px;"><br><br>
+
+	Image detail  : <textarea type="text" name="foodie" id="foodie" rows="4" cols= "20" style="min-width: 90px; margin-left: 40px; max-width: 200px; max-height: 100px;"></textarea><br><br>
+
+
+	<input type="submit" value="Submit" onclick="out()" style="margin-left: 20px;"/><br><br>
+	 <div id="display"></div>
+
+</div>
+<script>
+
+
+
+var locationOut = document.getElementById("display");
+function out(){
+    
+	locationOut.innerHTML = "Your request will be sent to users near your location." ;
+}
+</script>
+
+</body>
+</html>
